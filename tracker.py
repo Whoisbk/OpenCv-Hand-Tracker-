@@ -29,7 +29,8 @@ while True:
                 #print(id,lm)
                 h,w,c = img.shape
                 cx, cy = int(lm.x*w),int(lm.y*h)
-                print(cx,cy)
+                print(id,cx,cy)
+
         
             mp_draw.draw_landmarks(img,hand_lms,mp_hands.HAND_CONNECTIONS)#how to draw on the screen
             
